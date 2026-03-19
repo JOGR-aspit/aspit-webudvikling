@@ -1,0 +1,18 @@
+# This folder is for your story images
+
+Place your image files here and reference them in your HTML like this:
+<img src="images/your-image.jpg" alt="Description of image">
+
+## Image Tips
+
+- Use descriptive file names (e.g., `dark-forest.jpg` not `img1.jpg`)
+- Keep images reasonably sized (800px width or less is usually good)
+- Always add alt text that describes what's in the image
+- Use JPG for photos, PNG for graphics with transparency
+
+## Free Image Sources
+
+If you need images, try these free sources:
+- Unsplash: https://unsplash.com
+- Pexels: https://pexels.com
+- Pixabay: https://pixabay.com
