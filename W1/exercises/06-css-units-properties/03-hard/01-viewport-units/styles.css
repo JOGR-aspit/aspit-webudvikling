@@ -1,0 +1,26 @@
+/*
+ * Exercise: Viewport Units & Combined Properties
+ *
+ * Your task: Write ALL the CSS from scratch.
+ * Follow the tasks in README.md
+ *
+ * Units to use:
+ * - vh: viewport height (100vh = full screen height)
+ * - %: percentage of parent
+ * - rem: relative to root font-size
+ * - em: relative to element's font-size
+ * - px: pixels (for borders)
+ *
+ * Color formats to use:
+ * - Named: white, black, red, etc.
+ * - Hex: #RRGGBB (e.g., #2c3e50)
+ * - RGBA: rgba(r, g, b, alpha) for transparency
+ *
+ * Text properties to use:
+ * - text-transform: uppercase, lowercase, capitalize
+ * - letter-spacing: usually in em
+ * - text-indent: indent first line
+ * - text-align: left, center, right
+ */
+
+/* Write your CSS here */

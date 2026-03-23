@@ -59,27 +59,25 @@ The `curriculum/` folder contains all learning materials:
 14. **Positioning** - CSS position property with emphasis on sticky headers
 15. **Web Design Basics** - Color schemes, fonts, gestalt principles, and accessibility
 
-### Assignments
+### Exercises
 
-The `assignments/` folder contains practice exercises to reinforce your learning:
+The `exercises/` folder contains practice exercises to reinforce your learning. Not every curriculum article has an accompanying exercise folder, but many do. Each topic contains easy, medium and hard exercises.
 
-- **Assignment 1**: Your First Web Page
-- **Assignment 2**: HTML Elements and Text Practice
-- **Assignment 3**: Links and Images
-- **Assignment 4**: Styling with CSS Basics
-- **Assignment 5**: The Box Model and Layout
-- **Assignment 6**: Flexbox Layout
-- **Assignment 7**: Responsive Design Project
-
-*Solutions are available in `assignments/solutions/` for reference.*
+- **Exercise 1**: Working with Text in HTML
+- **Exercise 2**: Working with Lists in HTML
+- **Exercise 3**: Working with Links and Images in HTML
+- **Exercise 4**: CSS Fundamentals
+- **Exercise 5**: CSS Selectors
+- **Exercise 6**: CSS Units and Properties
 
 ### Projects
 
-The `projects/` folder contains larger, practical projects:
+The `projects/` folder contains larger, practical projects, such as:
 
-- **Project 1**: Personal Profile Page
-- **Project 2**: Product Landing Page
-- **Project 3**: Simple Portfolio Website
+- an interactive "Choose-Your-Own-Adventure" page
+- a personal profile page
+- a product Landing Page
+- a simple portfolio website
 
 ### Code Examples
 

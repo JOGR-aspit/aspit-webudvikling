@@ -1,0 +1,86 @@
+/*
+ * Exercise: Pixel Units & Color Formats
+ *
+ * Your task: Write CSS declarations inside each selector.
+ * Follow the tasks in README.md
+ *
+ * Remember:
+ * - px units: number + px (no space!)  Example: 16px
+ * - Named colors: red, blue, white, green, etc.
+ * - Hex colors: #RRGGBB  Example: #FF0000
+ */
+
+/* Page background */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+
+    /* Center the card on the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* TASK 2: Style the card container */
+.product-card {
+    /* Add these declarations:
+       - background-color: #ffffff; (white)
+       - border: 2px solid #333333; (dark gray, 2px thick)
+    */
+
+    /* Pre-added for layout */
+    width: 300px;
+    padding: 20px;
+    position: relative;
+}
+
+/* TASK 3: Style the product title */
+.product-title {
+    /* Add these declarations:
+       - color: #2c3e50; (dark blue-gray)
+       - font-size: 24px;
+    */
+
+    /* Pre-added for layout */
+    margin: 0 0 10px 0;
+}
+
+/* TASK 4: Style the product description */
+.product-description {
+    /* Add these declarations:
+       - color: #666666; (medium gray)
+       - font-size: 16px;
+    */
+
+    /* Pre-added for layout */
+    margin: 0 0 15px 0;
+}
+
+/* TASK 5: Style the price */
+.price {
+    /* Add these declarations:
+       - color: green; (named color)
+       - font-size: 20px;
+    */
+
+    /* Pre-added for layout */
+    margin: 0;
+    font-weight: bold;
+}
+
+/* TASK 6: Style the sale badge */
+.sale-badge {
+    /* Add these declarations:
+       - background-color: red; (named color)
+       - color: white; (named color)
+       - font-size: 12px;
+    */
+
+    /* Pre-added for layout */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+}
