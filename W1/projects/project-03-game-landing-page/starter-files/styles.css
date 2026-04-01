@@ -1,0 +1,348 @@
+/*
+ * PROJECT: Game Landing Page
+ *
+ * This CSS file styles the game landing page.
+ * Follow the milestone tasks in the README to add styles.
+ */
+
+/*
+========================================================================
+CSS RESET
+========================================================================
+
+This removes default browser spacing so you start with a clean slate.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+========================================================================
+BASE STYLES (Milestone 2, Task 1)
+========================================================================
+
+These styles apply to the entire page.
+*/
+
+/* TASK: Add styles to the body selector
+   Think about: what font should the page use? How much space between lines of text?
+   What color should the main text be?
+*/
+
+
+
+/*
+========================================================================
+HEADER STYLES (Milestone 2, Task 2)
+========================================================================
+
+The header goes at the top of the page with the game title and navigation.
+*/
+
+/* TASK: Create a header selector
+   Think about: what background color would look good? What text color?
+   How much padding (space inside) does it need?
+   Should the text be centered or left-aligned?
+*/
+
+
+
+/* TASK: Style the header h1 (the game title)
+   Think about: How big should the title be? What color makes it stand out?
+   Does it need space below it?
+*/
+
+
+
+/*
+========================================================================
+NAVIGATION STYLES (Milestone 2, Task 3)
+========================================================================
+
+The nav contains links that jump to different sections.
+*/
+
+/* TASK: Create a nav selector
+   Think about: Does the nav need space above it to separate from the title?
+*/
+
+
+
+/* TASK: Create a nav a selector (this styles links inside the nav)
+   Think about: What color should the links be? Should they have underlines?
+   How much space between each link? How big should the text be?
+*/
+
+
+
+/*
+========================================================================
+HERO SECTION STYLES (Milestone 2, Task 4)
+========================================================================
+
+The hero section is the first thing visitors see - make it stand out!
+*/
+
+/* TASK: Create a #hero selector
+   Think about: What background color makes this section pop?
+   What color should the text be? How much padding for space?
+   Should text be centered?
+*/
+
+
+
+/* TASK: Style the #hero h2 (the tagline)
+   Think about: How big should this heading be? What accent color?
+   Space below?
+*/
+
+
+
+/* TASK: Style the #hero p (the description paragraph)
+   Think about: How wide should this paragraph be (max-width)?
+   How to center it? What color for the text? Font size?
+*/
+
+
+
+/*
+========================================================================
+BUTTON STYLES (Milestone 2, Task 4 continued)
+========================================================================
+
+The CTA (Call To Action) button encourages visitors to pre-order.
+*/
+
+/* TASK: Create a .cta-button selector
+   Think about: Should it be inline-block or block? Background color?
+   Text color? Padding for size? Rounded corners or sharp?
+   Bold text or normal? Font size?
+*/
+
+
+
+/*
+========================================================================
+FEATURES SECTION STYLES (Milestone 2, Task 5)
+========================================================================
+
+The features section lists what makes the game exciting.
+*/
+
+/* TASK: Create a #features selector
+   Think about: Padding for space? Background color?
+*/
+
+
+
+/* TASK: Style the #features h2
+   Think about: Color? Centered or not? Size? Space below?
+*/
+
+
+
+/* TASK: Style the #features ul (the list itself)
+   Think about: How wide should the list be? How to center it?
+   Show bullet points or remove them?
+*/
+
+
+
+/* TASK: Style the #features li (each list item)
+   Think about: Space between items? Font size? Padding inside?
+   Background color? Border on the left? Rounded corners?
+*/
+
+
+
+/* TASK: Style the #features strong (bold text in list items)
+   Think about: What color for emphasis?
+*/
+
+
+
+/*
+========================================================================
+GALLERY SECTION STYLES (Milestone 2, Task 6)
+========================================================================
+
+The gallery section shows images from the game.
+*/
+
+/* TASK: Create a #gallery selector
+   Think about: Padding? Background color? Text alignment?
+*/
+
+
+
+/* TASK: Style the #gallery h2
+   Think about: Color? Size? Space below?
+*/
+
+
+
+/* TASK: Create a #gallery figure selector
+   Think about: How should images arrange (inline-block for side-by-side)?
+   Space around them? Background color? Padding? Rounded corners?
+*/
+
+
+
+/* TASK: Style the #gallery img
+   Think about: Max width? Height auto to maintain aspect ratio?
+   Rounded corners? Block or inline?
+*/
+
+
+
+/* TASK: Style the #gallery figcaption (image captions)
+   Think about: Space above? Font size? Color? Italic or normal?
+*/
+
+
+
+/*
+========================================================================
+INFO SECTION STYLES (Milestone 2, Task 7)
+========================================================================
+
+The info section shows release date and platforms.
+*/
+
+/* TASK: Create an #info selector
+   Think about: Padding? Margin to center? Max width?
+   Border (thickness, style, color)? Rounded corners? Background?
+*/
+
+
+
+/* TASK: Style the #info h2
+   Think about: Color? Alignment? Size? Space below?
+*/
+
+
+
+/* TASK: Style the #info p
+   Think about: Font size? Space below paragraphs?
+*/
+
+
+
+/* TASK: Style the #info ul
+   Think about: Show bullets or not? Padding?
+*/
+
+
+
+/* TASK: Style the #info li
+   Think about: Padding inside? Space between items? Background?
+   Rounded corners? Centered text?
+*/
+
+
+
+/*
+========================================================================
+FOOTER STYLES (Milestone 2, Task 8)
+========================================================================
+
+The footer appears at the bottom of the page.
+*/
+
+/* TASK: Create a footer selector
+   Think about: Background color (maybe match header)? Text color?
+   Centered or not? Padding for space?
+*/
+
+
+
+/* TASK: Style the footer p
+   Think about: Space above and below?
+*/
+
+
+
+/* TASK: Create a footer a selector (links in footer)
+   Think about: Color (maybe match nav links)? Underline or not?
+*/
+
+
+
+/*
+========================================================================
+HOVER EFFECTS (Milestone 3, Task 3)
+========================================================================
+
+Hover effects change how elements look when the mouse is over them.
+Use the :hover pseudo-class (like .cta-button:hover)
+*/
+
+/* TASK: Create a hover effect for the button
+   Think about: What color should it change to? Any movement?
+   (Hint: transform can move elements slightly)
+*/
+
+
+
+/* TASK: Create a hover effect for nav links
+   Think about: Should an underline appear?
+*/
+
+
+
+/* TASK: Create a hover effect for footer links
+   Think about: Should an underline appear?
+*/
+
+
+
+/*
+========================================================================
+MOBILE RESPONSIVE (Milestone 3, Task 6)
+========================================================================
+
+Media queries change styles based on screen size.
+This makes the page look good on phones and tablets.
+
+The @media rule below applies when screen is 600px or narrower.
+*/
+
+@media (max-width: 600px) {
+
+    /* TASK: Make the header title smaller on mobile
+       Think about: What font size works on small screens?
+    */
+
+
+
+    /* TASK: Make the hero heading smaller on mobile */
+
+
+
+    /* TASK: Make the hero paragraph text smaller on mobile */
+
+
+
+    /* TASK: Change gallery images to stack vertically on mobile
+       Think about: What display value makes elements stack?
+       How to center them?
+    */
+
+
+
+    /* TASK: Make sure gallery images don't overflow on mobile
+       Think about: Max-width percentage?
+    */
+
+
+
+    /* TASK: Make nav links stack vertically on mobile
+       Think about: What display value? Space between links?
+    */
+
+
+
+}

@@ -48,6 +48,26 @@ This folder contains practical projects for W1 (Introduction to Web Development)
 
 **Difficulty**: Beginner
 
+### Project 3: Game Landing Page
+
+**Folder**: `project-03-game-landing-page/`
+
+**Description**: Create a promotional landing page for an upcoming video game. This refresher project covers all W1 topics from HTML basics through CSS selectors. Build a complete, styled landing page with multiple sections, navigation, and images.
+
+**Topics Covered**:
+- HTML document structure and semantic elements
+- Text elements, lists, links, and images
+- CSS fundamentals, selectors, and the box model
+- Styling with colors, fonts, and spacing
+- Hover effects and basic responsiveness
+
+**Prerequisites**:
+- Articles 01-08 (How the Internet Works through CSS Selectors)
+
+**Estimated Time**: 1-2 days
+
+**Difficulty**: Beginner
+
 ---
 
 ## How to Use Projects
