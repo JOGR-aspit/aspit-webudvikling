@@ -35,40 +35,33 @@ This exercise brings together block elements (for page sections) and inline-bloc
 
 1. **Open `styles.css`** - This file has base styles. You'll add the layout styles.
 
-2. **Remove list styles from navigation** - Create a selector for `.nav-menu` and add:
-   - `list-style: none;` (removes bullet points)
-   - `margin: 0;` (removes default margin)
-   - `padding: 0;` (removes default padding)
+2. **Remove list styles from navigation** - Create a selector for `.nav-menu` and add properties to remove browser defaults
+   - Think: What properties control the bullet points and spacing on lists?
+   - Hint: You need to remove three things that browsers add by default
 
-3. **Make list items inline-block** - Create a selector for `.nav-menu li` and add:
-   - `display: inline-block;` (items sit side by side)
+3. **Make list items inline-block** - Create a selector for `.nav-menu li` and add a display property
+   - Think: How do you make block elements sit side by side while still accepting width/height?
+   - Hint: The solution is in the exercise name!
 
-4. **Style navigation links** - Create a selector for `.nav-menu a` and add:
-   - `display: inline-block;` (allows padding on links)
-   - `padding: 15px 20px;` (clickable area)
-   - `color: white;` (white text)
-   - `text-decoration: none;` (removes underline)
+4. **Style navigation links** - Create a selector for `.nav-menu a` and add inline-block with padding
+   - Think: Why do links need special treatment for padding?
+   - Hint: Links have default display type that ignores padding
 
-5. **Add hover effects to links** - Create a selector for `.nav-menu a:hover` and add:
-   - `background-color: #3d566e;` (darker background on hover)
+5. **Add hover effects to links** - Create a selector for `.nav-menu a:hover` with background change
+   - Think: How do you select elements when the mouse is over them?
+   - Hint: Use a pseudo-class with no space before the colon
 
-6. **Style the page header** - Create a selector for `.page-header` and add:
-   - `background-color: #2c3e50;` (dark blue background)
-   - `color: white;` (white text)
-   - `padding: 20px;` (space inside header)
-   - `text-align: center;` (center the title)
+6. **Style the page header** - Create a selector for `.page-header` with dark background and centered text
+   - Think: What properties control background color and text alignment?
+   - Hint: Use the same dark blue color from the CSS fundamentals lesson
 
-7. **Style the main content container** - Create a selector for `.container` and add:
-   - `max-width: 800px;` (maximum width)
-   - `margin: 30px auto;` (centers container)
-   - `padding: 0 20px;` (space on sides)
+7. **Style the main content container** - Create a selector for `.container` with max width and centering
+   - Think: How do you limit width and center content at the same time?
+   - Hint: You need width, max-width, and the magic margin value
 
-8. **Style the page footer** - Create a selector for `.page-footer` and add:
-   - `background-color: #2c3e50;` (dark blue background)
-   - `color: rgba(255, 255, 255, 0.7);` (semi-transparent white)
-   - `padding: 20px;` (space inside footer)
-   - `text-align: center;` (center text)
-   - `margin-top: 40px;` (space above footer)
+8. **Style the page footer** - Create a selector for `.page-footer` with dark background and semi-transparent text
+   - Think: How do you make text semi-transparent?
+   - Hint: Use rgba with alpha channel
 
 ## Why Inline-Block for Navigation?
 

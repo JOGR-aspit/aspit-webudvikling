@@ -21,6 +21,7 @@ Before starting this exercise, you should have:
 ## What You'll Build
 
 You will create a complete centered page layout with:
+
 - A **header** at the top
 - Three **cards** in the content area
 - A **footer** at the bottom
@@ -32,76 +33,54 @@ This exercise brings together everything you've learned about padding, border, a
 
 1. **Open `styles.css`** - This file is empty. You'll write everything from scratch.
 
-2. **Set box-sizing globally** - Write a universal selector:
-   - Selector: `*, *::before, *::after`
-   - Declaration: `box-sizing: border-box;`
+2. **Set box-sizing globally** - Write a universal selector to make all elements use border-box sizing
+   - Think: Which selector targets ALL elements, including pseudo-elements?
+   - Hint: This affects how width, padding, and border are calculated
 
-3. **Style the page body** - Remove default spacing:
-   - Selector: `body`
-   - Declarations: `margin: 0;`, `padding: 0;`, `font-family: Arial, sans-serif;`, `background-color: #f5f5f5;`
+3. **Style the page body** - Remove default browser spacing and set basic page properties
+   - Think: What properties control the default spacing around the page?
+   - Hint: Reset margins, padding, set a font, and a light background color
 
-4. **Center the main container** - Create a centered wrapper:
-   - Selector: `.container`
-   - Declarations:
-     - `width: 90%;` (90% of viewport width)
-     - `max-width: 800px;` (but never wider than 800px)
-     - `margin: 0 auto;` (THIS centers it! 0 top/bottom, auto left/right)
-     - `padding: 20px;` (space inside)
+4. **Center the main container** - Create a responsive centered wrapper with max width
+   - Think: How do you center an element without using flexbox or grid?
+   - Hint: You need width, max-width, and margin properties
+   - Goal: 90% width on small screens, max 800px, perfectly centered
 
-5. **Style the header** - Create a page header:
-   - Selector: `.header`
-   - Declarations:
-     - `background-color: #2c3e50;` (dark blue)
-     - `color: #ffffff;` (white text)
-     - `padding: 20px;` (space inside)
-     - `margin-bottom: 30px;` (space below)
-     - `text-align: center;`
+5. **Style the header** - Create a page header with dark background and centered text
+   - Think: What properties control background color, text color, spacing, and text alignment?
+   - Hint: Remember to add space below the header
+   - Hint: Dark blue background with white text works well
 
-6. **Style the header title** - Make the heading look good:
-   - Selector: `.header h1`
-   - Declarations: `margin: 0;`, `font-size: 1.75rem;`
+6. **Style the header title** - Remove the default margin and set appropriate font size
+   - Think: Why do headings have extra space around them by default?
+   - Hint: Set margin to 0 and choose a nice font size
 
-7. **Style the cards** - Create card components:
-   - Selector: `.card`
-   - Declarations:
-     - `background-color: #ffffff;`
-     - `padding: 20px;`
-     - `border: 1px solid #dddddd;`
-     - `margin-bottom: 20px;` (space between cards)
-     - `border-radius: 4px;` (slightly rounded corners)
+7. **Style the cards** - Create white card components with borders and spacing
+   - Think: How do you create content boxes with inner spacing and borders?
+   - Hint: Use background, padding, border, and margin-bottom
+   - Hint: Add slightly rounded corners for a modern look
 
-8. **Style card titles** - Make card headings stand out:
-   - Selector: `.card-title`
-   - Declarations:
-     - `color: #2c3e50;`
-     - `font-size: 1.25rem;`
-     - `margin: 0 0 10px 0;`
+8. **Style card titles** - Make card headings stand out with proper spacing and color
+   - Think: How do you control the spacing around headings and make them readable?
+   - Hint: Remove default margins and set appropriate size/color
 
-9. **Style card content** - Make paragraphs readable:
-   - Selector: `.card-content`
-   - Declarations:
-     - `color: #666666;`
-     - `line-height: 1.6;`
-     - `margin: 0;`
+9. **Style card content** - Make paragraphs readable with proper line height and color
+   - Think: What makes text comfortable to read in a card?
+   - Hint: Adjust line height and use a muted color for text
 
-10. **Create a featured card variant** - Make one card special:
-    - Selector: `.card.featured`
-    - Declarations:
-      - `border-left: 4px solid #27ae60;` (green accent)
-      - `background-color: #f0fff4;` (very light green)
+10. **Create a featured card variant** - Make one card special with accent styling
+    - Think: How do you style elements with multiple classes?
+    - Hint: The selector has NO space between the classes
+    - Hint: Green accent border and light green background work well
 
-11. **Style the footer** - Create a page footer:
-    - Selector: `.footer`
-    - Declarations:
-      - `background-color: #2c3e50;`
-      - `color: #ffffff;`
-      - `padding: 15px 20px;`
-      - `text-align: center;`
-      - `margin-top: 30px;`
+11. **Style the footer** - Create a page footer similar to the header but smaller
+    - Think: What properties make a footer similar to the header but with different spacing?
+    - Hint: Same background color as header but with space above
+    - Hint: Centered text with appropriate padding
 
-12. **Style footer text** - Make footer text smaller:
-    - Selector: `.footer p`
-    - Declarations: `margin: 0;`, `font-size: 0.875rem;`
+12. **Style footer text** - Make footer text smaller without extra spacing
+    - Think: How do you control text size and remove default paragraph margins?
+    - Hint: Set a smaller font size and reset margins
 
 ## Auto Margin Centering Explained
 
@@ -113,6 +92,7 @@ This exercise brings together everything you've learned about padding, border, a
 ```
 
 **How it works**:
+
 - `auto` tells the browser: "calculate the remaining space and split it equally"
 - If the viewport is 1000px wide and your container is 800px wide...
 - The browser calculates: 1000 - 800 = 200px remaining
@@ -223,6 +203,7 @@ When you complete this exercise, your page will look like this:
 **Possible cause:** You forgot to add `width` or used `width: auto`.
 
 **Fix:** Auto margins only work with a defined width:
+
 ```css
 /* WON'T CENTER - no width */
 .container {
@@ -241,6 +222,7 @@ When you complete this exercise, your page will look like this:
 **Possible cause:** You forgot `margin-bottom` on the cards.
 
 **Fix:** Add margin to create gaps:
+
 ```css
 .card {
     margin-bottom: 20px;  /* Space between cards */
@@ -252,6 +234,7 @@ When you complete this exercise, your page will look like this:
 **Possible cause:** Wrong selector format (space vs no space).
 
 **Fix:** No space between classes for chained selector:
+
 ```css
 /* WRONG - space means descendant */
 .card .featured { }
@@ -265,6 +248,7 @@ When you complete this exercise, your page will look like this:
 **Possible cause:** Browsers add default margin to the body.
 
 **Fix:** Reset body margin and padding:
+
 ```css
 body {
     margin: 0;
@@ -277,6 +261,7 @@ body {
 **Possible cause:** Headings (`h1`, `h2`) have default margins.
 
 **Fix:** Reset heading margins:
+
 ```css
 .header h1 {
     margin: 0;
@@ -288,6 +273,7 @@ body {
 **Possible cause:** You forgot `max-width`.
 
 **Fix:** Add both `width` and `max-width`:
+
 ```css
 .container {
     width: 90%;        /* Percentage for small screens */

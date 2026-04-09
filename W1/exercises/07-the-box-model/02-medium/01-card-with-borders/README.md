@@ -20,6 +20,7 @@ Before starting this exercise, you should have:
 ## What You'll Build
 
 You will create a styled card component with borders. You'll learn how to:
+
 - Use `box-sizing: border-box` so padding and border don't make elements larger than expected
 - Add borders around the entire card
 - Add borders to specific sides (like just the bottom or left)
@@ -149,6 +150,7 @@ FEATURED CARD:
 **Possible cause:** You forgot to set `box-sizing: border-box`.
 
 **Fix:** Add this at the top of your CSS:
+
 ```css
 * {
     box-sizing: border-box;
@@ -160,6 +162,7 @@ FEATURED CARD:
 **Possible cause:** You might have written the values in the wrong format.
 
 **Fix:** Border shorthand needs three values: width, style, color:
+
 ```css
 /* WRONG - missing style */
 border: 1px #cccccc;
@@ -173,6 +176,7 @@ border: 1px solid #cccccc;
 **Possible cause:** The chained selector `.card.featured` needs NO space between classes.
 
 **Fix:** Make sure there's no space:
+
 ```css
 /* WRONG - space means "featured inside card" */
 .card .featured { }
@@ -186,6 +190,7 @@ border: 1px solid #cccccc;
 **Possible cause:** You might have used `border-bottom-width` instead of the shorthand.
 
 **Fix:** Use the full shorthand:
+
 ```css
 /* This might not work if style/color aren't set */
 border-bottom-width: 2px;
@@ -199,6 +204,7 @@ border-bottom: 2px solid #3498db;
 **Possible cause:** You forgot `max-width` or the container is too large.
 
 **Fix:** Add max-width to the card:
+
 ```css
 .card {
     max-width: 400px;
